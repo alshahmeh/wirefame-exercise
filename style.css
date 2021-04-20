@@ -1,0 +1,33 @@
+body {
+  width: 1000px;
+  line-height: 1.5;
+    line-height: 1.5;
+    margin: auto;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;}
+
+  header{
+display: inline;
+    align-items: center;
+    background: rgb(37, 36, 36);}
+  
+  body>section{
+    display: grid;
+    grid-template-rows: 100px 1fr 100px;}
+
+ 
+    header nav a {text-decoration: none;
+      position: relative;left: 300px;bottom: 60px ;
+      text-transform: uppercase;
+      color: #4b778d;
+      font-weight: 600;
+      padding: 10px;
+      }
+    
+      main section>div{  display: grid;width: 970px;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 20px;}
+
+        button{width: 300px;background-color: black;color: white;font-size: large;margin-bottom: 0px;padding: 5px;margin: 5px;}
+        button:hover{color: #fff;
+          background: #4b778d;}
+          main{margin-bottom: 30px;margin: auto;}
